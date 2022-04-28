@@ -43,11 +43,6 @@ public class Base_PO {
         return RandomStringUtils.randomAlphabetic(length);
     }
 
-    public void sendKeys(By by, String textToType) {
-        WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
-        wait1.until(ExpectedConditions.elementToBeClickable(by)).sendKeys(textToType);
-    }
-
     public void sendKeys(WebElement element, String textToType) {
         WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
         wait1.until(ExpectedConditions.elementToBeClickable(element)).sendKeys(textToType);
@@ -70,12 +65,19 @@ public class Base_PO {
         Assert.assertEquals(alert_Message_Text, text);
     }
 
+    public void waitForSubmissionAndValidateText(WebElement element, String expectedNotice) {
+        WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
+        String actualNotice = element.getText();
+        System.out.println("Actual Text : " + actualNotice);
+        Assert.assertEquals(actualNotice, expectedNotice);
+    }
+
     public void waitForSubmission_And_ValidateText(By by) {
         WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
         wait1.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));
     }
 
-    public void waitForSubmission_Message(WebElement element) {
+    public void waitForWebelement_Message(WebElement element) {
         WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
         wait1.until(ExpectedConditions.visibilityOf(element));
     }
@@ -86,11 +88,14 @@ public class Base_PO {
         wait1.until(ExpectedConditions.visibilityOf(element));
 
     }
-    public void waitForAlertAndAccept (){
+
+    public void waitForAlertAndAccept() {
         getDriver().switchTo().alert().accept();
     }
 
-    public void scrollDown (WebElement link){
+    //========Scroll Down=====//
+
+    public void scrollDown(WebElement link) {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -115,13 +120,37 @@ public class Base_PO {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
     }
+
+    //========Switching Window=====//
+    public void switchToWindow(String targetTitle) {
+        String origin = getDriver().getWindowHandle();
+        for (String handle : getDriver().getWindowHandles()) {
+            getDriver().switchTo().window(handle);
+            if (getDriver().getTitle().equals(targetTitle)) {
+                return;
+            }
+        }
+        getDriver().switchTo().window(origin);
+    }
+
+    //This java method's part switches to the newest window.
+    // Also consider maximizing it, because sometimes tests masses up in not maximized windows.
+    public void handleNewWindowPage() {
+        String winHandleBefore = getDriver().getWindowHandle();
+        for (String newURL : getDriver().getWindowHandles()) {
+            getDriver().switchTo().window(newURL);
+        }
+    }
+
     /**
      * Selects a random value from a dropdown list and returns the selected Web Element
+     *
      * @param select
      * @return
      */
-    public static WebElement selectRandomTextFromDropdown(WebElement element,Select select) {
+    public static WebElement selectRandomTextFromDropdown(WebElement element, Select select) {
         Random random = new Random();
         element.click();
         List<WebElement> weblist = select.getOptions();
@@ -141,12 +170,20 @@ public class Base_PO {
     //This method selects one of the options in a drop-down box or an option among multiple selection boxes.
     //It takes a parameter of String which is one of the values of Select element and it returns nothing.
     public void selectByVisibleTextFromDropDown(WebElement element1, String string) {
-        Select selectElement =new Select(element1);
+        Select selectElement = new Select(element1);
         selectElement.selectByVisibleText(ConfigReader.getProperty("Gender"));
 
     }
 
-        //   HARD WAIT WITH THREAD.SLEEP
+    //SPAN DROPLIST SELECTION
+    //If 'select' option is not needed for droplist, we use the method below;
+    public void waitForDropListAndSelectOption(WebElement element,WebElement selection) {
+        WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
+        wait1.until(ExpectedConditions.elementToBeClickable(element)).click();
+        wait1.until(ExpectedConditions.elementToBeClickable(selection)).click();
+    }
+
+    //   HARD WAIT WITH THREAD.SLEEP
     //   waitFor(5);  => waits for 5 second
     public static void waitFor(int sec) {
         try {
@@ -155,6 +192,7 @@ public class Base_PO {
             e.printStackTrace();
         }
     }
+
     public static String getScreenshot(String name) throws IOException {
         // naming the screenshot with the current date to avoid duplication
         String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -168,22 +206,13 @@ public class Base_PO {
         FileUtils.copyFile(source, finalDestination);
         return target;
     }
-    //========Switching Window=====//
-    public static void switchToWindow(String targetTitle) {
-        String origin = DriverFactory.getDriver().getWindowHandle();
-        for (String handle : DriverFactory.getDriver().getWindowHandles()) {
-            DriverFactory.getDriver().switchTo().window(handle);
-            if (DriverFactory.getDriver().getTitle().equals(targetTitle)) {
-                return;
-            }
-        }
-        DriverFactory.getDriver().switchTo().window(origin);
-    }
+
     //========Hover Over=====//
     public static void hover(WebElement element) {
         Actions actions = new Actions(DriverFactory.getDriver());
         actions.moveToElement(element).perform();
     }
+
     //========Returns the Text of the element given an element locator==//
     public static List<String> getElementsText(By locator) {
         List<WebElement> elems = DriverFactory.getDriver().findElements(locator);

@@ -3,11 +3,16 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageObjects.HomePageVisibility_PO;
+import pageObjects.*;
 
 public class A01_homePageVisibility_Steps {
 
     HomePageVisibility_PO homePageVisibility_po = new HomePageVisibility_PO();
+    AboutUs_PO aboutUs_po = new AboutUs_PO();
+    Departments_PO departments_po = new Departments_PO();
+    ContactUs_PO contactUs_po = new ContactUs_PO();
+
+    CareerPage_ApplyNow_PO careerPage_applyNow_po = new CareerPage_ApplyNow_PO();
 
     @Given("I navigate to homepage")
     public void iNavigateToHomepage() {
@@ -17,7 +22,7 @@ public class A01_homePageVisibility_Steps {
     @Then("I verify {} is visible")
     public void iVerifyInsurancePartnersIsVisible(String string) {
         switch (string) {
-            case "home page logo":
+            case "home page":
                 homePageVisibility_po.verifyHomePageLogo();
                 break;
             case "Insurance Partners":
@@ -29,6 +34,30 @@ public class A01_homePageVisibility_Steps {
             case "Request an Appointment":
                 homePageVisibility_po.verifyAppointmentButtonVisible();
                 break;
+            //aboutUs #6 is also here
+            case "about us page":
+                aboutUs_po.verifyAboutUsPageIsVisible();
+                break;
+            case "Core Value of DMC":
+                aboutUs_po.verifyCoreValueofDMCIsVisible();
+                break;
+            case "Dr. Kadir":
+                aboutUs_po.verifyDrKadirIsVisible();
+                break;
+                //department #6 is also here;
+            case "Our Medical Services":
+                departments_po.verifyOurMedicalServicesIsVisible();
+                break;
+                //contact Us #6
+            case "contact us":
+                contactUs_po.verifyContactUs();
+                break;
+                //careerPage #9
+            case "Apply Now":
+                careerPage_applyNow_po.verifyApplyNowIsVisible();
+                break;
+            case "Home /Careers":
+                careerPage_applyNow_po.verifyHomeCareerIsVisible();
         }
     }
 

@@ -49,25 +49,24 @@ public class HomePageVisibility_PO extends Base_PO {
 
 
     public void navigatetohomepage() {
-        System.out.println("We are landing home page");
         waitFor(2);
         navigateTo_URL(ConfigReader.DEFAULT_WEBSITE_HOMEPAGE);
     }
 
     public void verifyHomePageLogo() {
-        waitForSubmission_Message(headimage);
+        waitForWebelement_Message(headimage);
     }
 
     public void verifyWorkingHoursVisible(){
-        waitForSubmission_Message(workingHoursText);
+        waitForWebelement_Message(workingHoursText);
     }
 
     public void verifyInsurancePartners() {
-        waitForSubmission_Message(insurancePartnerText);
+        waitForWebelement_Message(insurancePartnerText);
     }
 
     public void verifyAppointmentButtonVisible(){
-        waitForSubmission_Message(requestAnAppointmentButton);
+        waitForWebelement_Message(requestAnAppointmentButton);
     }
 
     public void verifyAboutUsDepartmentsContactCareersMagazine(String a, String b, String c, String d, String e) {
