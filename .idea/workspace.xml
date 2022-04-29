@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AboutUs_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CareerPage_ApplyNow_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CareerPage_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ContactUsDetails_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ContactUs_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Departments_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Feedback_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/JoinUsDirection_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A03_feedback_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A04_joinUsDirection_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A05_aboutUs_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A06_departments_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A07_contactUs_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A08_contactUsDetails_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A09_careerPage_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A10_careerPage_ApplyNow_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A03_feedback.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A04_joinUsDirection.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A05_aboutUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A06_departments.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A07_contactUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A08_contactUsDetails.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A09_careerPage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A10_careerPage_ApplyNow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/ target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/RequestAnAppointment_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/RequestAnAppointment_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" afterDir="false" />
-    </list>
+    <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +22,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="28MbLcDATNpY0kZ5LeMIvzXodLc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
