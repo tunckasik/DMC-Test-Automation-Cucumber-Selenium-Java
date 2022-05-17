@@ -1,4 +1,4 @@
-@allfeatures @joinusdirection
+@regression @joinusdirection
 Feature: Website of Deva Medical Center - Home Page - Join Us
 
   Scenario: Send a Successful Join

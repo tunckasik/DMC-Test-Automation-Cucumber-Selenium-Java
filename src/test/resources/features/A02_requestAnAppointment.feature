@@ -1,4 +1,4 @@
-@allfeatures @appointment
+@regression @appointment
 Feature: Website of Deva Medical Center - Home Page
 
   Scenario: Succesful Appointment Request

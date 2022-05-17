@@ -1,4 +1,4 @@
-@allfeatures @careerPage
+@regression @careerPage
 Feature: Website of Deva Medical Center - Careers Application Details
 
   Scenario: New Candidate Application - Successful

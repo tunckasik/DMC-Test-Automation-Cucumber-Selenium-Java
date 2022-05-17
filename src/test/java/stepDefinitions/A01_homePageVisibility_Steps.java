@@ -78,7 +78,7 @@ public class A01_homePageVisibility_Steps {
 
     @Then("I close the pop")
     public void iCloseThePop() {
-        homePageVisibility_po.closeButton.click();
+        homePageVisibility_po.clickCloseButton();
     }
 
 

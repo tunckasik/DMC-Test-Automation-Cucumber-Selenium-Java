@@ -1,4 +1,4 @@
-@allfeatures @contactus
+@regression @contactus
 Feature: Website of Deva Medical Center - Contact Us Page
 
   Scenario: Verify Contact Us Page

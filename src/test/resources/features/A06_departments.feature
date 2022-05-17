@@ -1,4 +1,4 @@
-@allfeatures @departments
+@regression @departments
 Feature: Website of Deva Medical Center - Departments Page
 
   Scenario: Verify Departments are listed as expected

@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!" />
+    <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!">
+      <change afterPath="$PROJECT_DIR$/ target/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/testng/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A03_feedback.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A03_feedback.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A04_joinUsDirection.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A04_joinUsDirection.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A05_aboutUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A05_aboutUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A06_departments.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A06_departments.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A07_contactUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A07_contactUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A08_contactUsDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A08_contactUsDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A09_careerPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A09_careerPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A10_careerPage_ApplyNow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A10_careerPage_ApplyNow.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,60 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CanBec/Desktop/DevaMC/DMC&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/CanBec/Desktop/QA/3.DONE/DMC",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CanBec\Desktop\DevaMC\DMC\src\test\resources\features" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.MainRunner">
-    <configuration name="Feature: A04_joinUsDirection" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A04_joinUsDirection.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DMC" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: A04_joinUsDirection" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: A05_aboutUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A05_aboutUs.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DMC" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: A05_aboutUs" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Feature: A06_departments" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A06_departments.feature" />
@@ -100,6 +81,26 @@
       <module name="DMC" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: A06_departments" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Insurance Partners, Working Hours and Request an Appointment are visible" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="DMC" />
+      <option name="NAME_FILTER" value="^Insurance Partners\, Working Hours and Request an Appointment are visible$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Insurance Partners\, Working Hours and Request an Appointment are visible$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Insurance Partners, Working Hours and Request an Appointment are visible" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify Contact Us Details - Customer Care" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A08_contactUsDetails.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="DMC" />
+      <option name="NAME_FILTER" value="^Verify Contact Us Details \- Customer Care$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Contact Us Details \- Customer Care$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Contact Us Details - Customer Care" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DMC" />
       <extension name="coverage">
@@ -151,10 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MainRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Insurance Partners, Working Hours and Request an Appointment are visible" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Contact Us Details - Customer Care" />
         <item itemvalue="Cucumber Java.Scenario: New Candidate Application - Successful" />
         <item itemvalue="Cucumber Java.Feature: A06_departments" />
-        <item itemvalue="Cucumber Java.Feature: A05_aboutUs" />
-        <item itemvalue="Cucumber Java.Feature: A04_joinUsDirection" />
       </list>
     </recent_temporary>
   </component>

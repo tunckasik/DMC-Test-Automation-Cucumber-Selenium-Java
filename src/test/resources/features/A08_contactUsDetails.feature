@@ -1,4 +1,4 @@
-@allfeatures @contactusdetails
+@regression @contactusdetails
 Feature: Website of Deva Medical Center - Contact Us Details
 
   Scenario: Verify Contact Us Details - Customer Care

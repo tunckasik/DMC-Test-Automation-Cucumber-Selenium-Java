@@ -1,4 +1,4 @@
-@allfeatures @feedback
+@regression @feedback
 Feature: Website of Deva Medical Center - Home Page - FEEDBACK
 
   Scenario: Send a Successful Feedback

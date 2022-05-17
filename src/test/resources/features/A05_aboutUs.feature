@@ -1,4 +1,4 @@
-@allfeatures @aboutus
+@regression @aboutus
 Feature: Website of Deva Medical Center - About Us Page
   Background: About Us Page
     Given  I navigate to about us page

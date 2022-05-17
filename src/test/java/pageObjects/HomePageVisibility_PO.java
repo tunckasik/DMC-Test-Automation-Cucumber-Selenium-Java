@@ -44,9 +44,8 @@ public class HomePageVisibility_PO extends Base_PO {
     @FindBy(xpath = "//h3[contains(.,'NOTICE FOR INSURANCE MEMBERS')]")
     public WebElement noticeForInsuranceMemberText;
 
-    @FindBy(xpath = "//button[@title='Close (Esc)'][contains(.,'×')]")
+    @FindBy(xpath = "//button[contains(@title,'Close (Esc)')]")
     public WebElement closeButton;
-
 
     public void navigatetohomepage() {
         waitFor(2);
@@ -82,5 +81,9 @@ public class HomePageVisibility_PO extends Base_PO {
         String actualNotice = noticeForInsuranceMemberText.getText();
         Assert.assertEquals(actualNotice, expectedNotice);
         System.out.println("Notice for Insurance Member is visible!");
+    }
+
+    public void clickCloseButton(){
+        waitForWebElementAndClick(closeButton);
     }
 }

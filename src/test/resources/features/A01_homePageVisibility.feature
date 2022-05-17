@@ -1,4 +1,4 @@
-@allfeatures @homepageverification
+@regression @homepageverification
 Feature: Website of Deva Medical Center - Home Page
 
   Background: Home Page
@@ -8,7 +8,7 @@ Feature: Website of Deva Medical Center - Home Page
     Then I verify home page is visible
     Then I verify 'About Us', 'Departments', 'Contact', 'Careers' and 'Magazine' are visible
 
-
+@smoke
   Scenario: Insurance Partners, Working Hours and Request an Appointment are visible
     Then I verify 'Insurance Partners' is visible
     Then I verify 'Working Hours' is visible
