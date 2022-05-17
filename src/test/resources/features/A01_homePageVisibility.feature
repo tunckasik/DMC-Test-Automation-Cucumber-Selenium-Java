@@ -1,11 +1,11 @@
-@allfeatures @homepageverification
+@regression @homepageverification
 Feature: Website of Deva Medical Center - Home Page
 
   Background: Home Page
     Given  I navigate to homepage
 
   Scenario: Verify Home Page Head Information Details
-    Then I verify home page logo is visible
+    Then I verify home page is visible
     Then I verify 'About Us', 'Departments', 'Contact', 'Careers' and 'Magazine' are visible
 
 

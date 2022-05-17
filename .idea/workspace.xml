@@ -4,28 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/RequestAnAppointment_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A02_requestAnAppointment_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" afterDir="false" />
+    <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AboutUs_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CareerPage_ApplyNow_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CareerPage_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ContactUsDetails_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ContactUs_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Departments_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Feedback_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/JoinUsDirection_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/testng/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A03_feedback_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A04_joinUsDirection_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A05_aboutUs_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A06_departments_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A07_contactUs_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A08_contactUsDetails_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A09_careerPage_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A10_careerPage_ApplyNow_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A03_feedback.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A04_joinUsDirection.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A05_aboutUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A06_departments.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A07_contactUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A08_contactUsDetails.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A09_careerPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/A10_careerPage_ApplyNow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/ target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageVisibility_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/RequestAnAppointment_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/RequestAnAppointment_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +60,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="28MbLcDATNpY0kZ5LeMIvzXodLc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,30 +75,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/CanBec/Desktop/DevaMC/DMC/src/test/resources/features"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CanBec/Desktop/DevaMC/DMC&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CanBec\Desktop\DevaMC\DMC\src\test\resources\features" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.MainRunner">
-    <configuration name="Scenario: Verify Home Page Information Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: A06_departments" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A06_departments.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DMC" />
-      <option name="NAME_FILTER" value="^Verify Home Page Information Details$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Home Page Information Details$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Home Page Information Details" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: A06_departments" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: New Candidate Application - Successful" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A10_careerPage_ApplyNow.feature" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DMC" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="NAME_FILTER" value="^New Candidate Application \- Successful$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New Candidate Application \- Successful$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: New Candidate Application - Successful" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -103,6 +125,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Home Page Head Information Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="DMC" />
+      <option name="NAME_FILTER" value="^Verify Home Page Head Information Details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Home Page Head Information Details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Home Page Head Information Details" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/CanBec/Desktop/QA Tester/3 - DONE/DMC/src/test/java/runners/testng/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DMC" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/runners/testng/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,8 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MainRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Home Page Information Details" />
-        <item itemvalue="Cucumber Java.Scenario: " />
+        <item itemvalue="TestNG.C:/Users/CanBec/Desktop/QA Tester/3 - DONE/DMC/src/test/java/runners/testng/testng.xml" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Home Page Head Information Details" />
+        <item itemvalue="Cucumber Java.Scenario: New Candidate Application - Successful" />
+        <item itemvalue="Cucumber Java.Feature: A06_departments" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +195,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651029349555</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second Feature is done!">
+      <created>1651081766720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651081766720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,16 +218,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/runners/MainRunner.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Second Feature is done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Feature is done!" />
   </component>
 </project>

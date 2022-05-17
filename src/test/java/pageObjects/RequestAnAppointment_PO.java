@@ -69,7 +69,7 @@ public class RequestAnAppointment_PO extends Base_PO {
     public WebElement  thankYouForYourRequestText;
 
     public void clickNextAndFillTheDetails(){
-        waitForSubmission_Message(requestAnAppointmentText);
+        waitForWebelement_Message(requestAnAppointmentText);
         waitForWebElementAndClick(nextButton);
         sendKeys(firstNameField,ConfigReader.getProperty("First_name"));
         sendKeys(lastNameField,ConfigReader.getProperty("Last_name"));
@@ -90,7 +90,7 @@ public class RequestAnAppointment_PO extends Base_PO {
 
     }
     public void  setAttachAFileAndWriteAMessage() {
-        sendKeys(chooseFileButton, ConfigReader.getProperty("Attached_Doc_URL"));
+        chooseFileButton.sendKeys("C:/Users/CanBec/Downloads/MurakozeTest.txt");
         sendKeys(writeMessageField, "Murakoze cyane!");
         waitFor(1);
 
