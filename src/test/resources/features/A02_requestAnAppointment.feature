@@ -1,7 +1,7 @@
 @regression @appointment
 Feature: Website of Deva Medical Center - Home Page
 
-  Scenario: Succesful Appointment Request
+  Scenario: Successful Appointment Request
     Given  I navigate to homepage
     When I click request an appointment
     Then I should be presented with a notice for insurance members
