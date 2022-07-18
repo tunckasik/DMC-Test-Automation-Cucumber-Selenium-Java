@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/A09_careerPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/A09_careerPage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
