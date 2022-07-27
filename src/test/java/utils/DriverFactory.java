@@ -19,7 +19,6 @@ public class DriverFactory {
             webDriver1.set(createDriver());
         }
         return webDriver1.get();
-
     }
 
     private static WebDriver createDriver() {

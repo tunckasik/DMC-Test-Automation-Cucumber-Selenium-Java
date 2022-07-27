@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9410054b-e606-4aae-a143-fe9f9309369b" name="Changes" comment="Second Feature is done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/Base_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/A01_homePageVisibility_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CanBec/Desktop/QA/JavaPro&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CanBec/Desktop/IT/QA/3.DONE/DMC&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
@@ -55,7 +58,7 @@
       <recent name="C:\Users\CanBec\Desktop\DevaMC\DMC\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: A02_requestAnAppointment">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify Home Page Head Information Details">
     <configuration name="Feature: A02_requestAnAppointment" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A02_requestAnAppointment.feature" />
@@ -115,15 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify Contact Us Details - Customer Care" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Home Page Head Information Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A08_contactUsDetails.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/A01_homePageVisibility.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DMC" />
-      <option name="NAME_FILTER" value="^Verify Contact Us Details \- Customer Care$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Contact Us Details \- Customer Care$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Contact Us Details - Customer Care" />
+      <option name="NAME_FILTER" value="^Verify Home Page Head Information Details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Home Page Head Information Details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Home Page Head Information Details" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify Home Page Head Information Details" />
         <item itemvalue="Cucumber Java.Feature: A02_requestAnAppointment" />
         <item itemvalue="Cucumber Java.Scenario: New Candidate Application - Successful (1)" />
         <item itemvalue="Cucumber Java.Scenario: Insurance Partners, Working Hours and Request an Appointment are visible" />
         <item itemvalue="TestNG.MainRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Contact Us Details - Customer Care" />
       </list>
     </recent_temporary>
   </component>

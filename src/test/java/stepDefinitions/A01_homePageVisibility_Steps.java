@@ -11,7 +11,6 @@ public class A01_homePageVisibility_Steps {
     AboutUs_PO aboutUs_po = new AboutUs_PO();
     Departments_PO departments_po = new Departments_PO();
     ContactUs_PO contactUs_po = new ContactUs_PO();
-
     CareerPage_ApplyNow_PO careerPage_applyNow_po = new CareerPage_ApplyNow_PO();
 
     @Given("I navigate to homepage")

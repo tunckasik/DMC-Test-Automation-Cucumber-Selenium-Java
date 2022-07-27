@@ -31,8 +31,8 @@ public class Base_PO {
         return DriverFactory.getDriver();
     }
 
-    public void navigateTo_URL(String URL1) {
-        getDriver().get(URL1);
+    public void navigateTo_URL(String URL) {
+        getDriver().get(URL);
     }
 
     public String generateRandomNumber(int length) {
@@ -120,7 +120,6 @@ public class Base_PO {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 
     //========Switching Window=====//
@@ -177,7 +176,7 @@ public class Base_PO {
 
     //SPAN DROPLIST SELECTION
     //If 'select' option is not needed for droplist, we use the method below;
-    public void waitForDropListAndSelectOption(WebElement element,WebElement selection) {
+    public void waitForDropListAndSelectOption(WebElement element, WebElement selection) {
         WebDriverWait wait1 = new WebDriverWait(getDriver(), Duration.ofSeconds(ConfigReader.DEFAULT_EXPLICIT_TIMEOUT));
         wait1.until(ExpectedConditions.elementToBeClickable(element)).click();
         wait1.until(ExpectedConditions.elementToBeClickable(selection)).click();
